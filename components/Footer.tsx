@@ -83,15 +83,15 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-brand-gold">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li className="text-gray-300">
-                <div className="font-semibold text-white">Aanchal Batwara</div>
-                <a href="mailto:batwara.aanchal@gmail.com" className="hover:text-brand-gold transition-colors">
-                  batwara.aanchal@gmail.com
+                <div className="font-semibold text-white">Roz Thompson</div>
+                <a href="mailto:roz@awsp.org" className="hover:text-brand-gold transition-colors">
+                  roz@awsp.org
                 </a>
               </li>
               <li className="text-gray-300">
-                <div className="font-semibold text-white">Gavin</div>
-                <a href="mailto:gtbc@uw.edu" className="hover:text-brand-gold transition-colors">
-                  gtbc@uw.edu
+                <div className="font-semibold text-white">James Laymen</div>
+                <a href="mailto:james@awsleaders.org" className="hover:text-brand-gold transition-colors">
+                  james@awsleaders.org
                 </a>
               </li>
             </ul>

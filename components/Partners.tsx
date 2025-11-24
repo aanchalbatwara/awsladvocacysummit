@@ -105,7 +105,7 @@ export default function Partners() {
                   href="mailto:gtbc@uw.edu"
                   className="block bg-white text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors font-semibold text-center"
                 >
-                  Contact Gavin
+                  Contact Gavin Cruz
                 </a>
               </div>
             </div>
