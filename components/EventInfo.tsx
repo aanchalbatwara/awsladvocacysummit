@@ -5,7 +5,7 @@ export default function EventInfo() {
     <section id="about" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-brand-navy mb-4">
+          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy mb-4">
             Why This Summit Matters
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -66,7 +66,7 @@ export default function EventInfo() {
             <div className="p-8 sm:p-12 flex flex-col justify-center relative">
               <div className="absolute top-0 right-0 w-64 h-64 bg-brand-gold/10 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
               <div className="relative z-10">
-                <h3 className="text-2xl sm:text-3xl font-bold mb-6 text-brand-gold">Our Goal</h3>
+                <h3 className="text-2xl sm:text-3xl font-serif font-bold mb-6 text-brand-gold">Our Goal</h3>
                 <p className="text-lg text-gray-100 leading-relaxed">
                   Bring students together across Washington State to strengthen civic education and youth voice.
                   Through hands-on experiences at the Capitol and interactive virtual sessions, we empower the

@@ -9,7 +9,7 @@ export default function Registration() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-brand-navy">
+          <h2 className="text-3xl sm:text-4xl font-serif font-bold mb-4 text-brand-navy">
             Register for the Summit
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -21,7 +21,7 @@ export default function Registration() {
           <div className="bg-white rounded-xl p-6 border border-brand-navy/10 shadow-sm hover:shadow-md transition-all group">
             <div className="flex items-center gap-4 mb-4">
               <div className="text-3xl p-3 bg-brand-gold/10 rounded-lg group-hover:bg-brand-gold/20 transition-colors">📅</div>
-              <h3 className="text-xl font-bold text-brand-navy">Choose Your Day</h3>
+              <h3 className="text-xl font-serif font-bold text-brand-navy">Choose Your Day</h3>
             </div>
             <p className="text-gray-600 leading-relaxed">
               Attend in-person on Feb 13th, join virtually on Feb 14th, or participate in both days
@@ -31,7 +31,7 @@ export default function Registration() {
           <div className="bg-white rounded-xl p-6 border border-brand-navy/10 shadow-sm hover:shadow-md transition-all group">
             <div className="flex items-center gap-4 mb-4">
               <div className="text-3xl p-3 bg-brand-gold/10 rounded-lg group-hover:bg-brand-gold/20 transition-colors">🎓</div>
-              <h3 className="text-xl font-bold text-brand-navy">For High School Students</h3>
+              <h3 className="text-xl font-serif font-bold text-brand-navy">For High School Students</h3>
             </div>
             <p className="text-gray-600 leading-relaxed">
               Open to all Washington State high school students passionate about civic education
@@ -41,7 +41,7 @@ export default function Registration() {
           <div className="bg-white rounded-xl p-6 border border-brand-navy/10 shadow-sm hover:shadow-md transition-all group">
             <div className="flex items-center gap-4 mb-4">
               <div className="text-3xl p-3 bg-brand-gold/10 rounded-lg group-hover:bg-brand-gold/20 transition-colors">✨</div>
-              <h3 className="text-xl font-bold text-brand-navy">No Experience Required</h3>
+              <h3 className="text-xl font-serif font-bold text-brand-navy">No Experience Required</h3>
             </div>
             <p className="text-gray-600 leading-relaxed">
               Just bring your voice, vision, and desire to make a difference

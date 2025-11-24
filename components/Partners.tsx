@@ -120,7 +120,7 @@ export default function Partners() {
               <div className="space-y-3">
                 <a
                   href="mailto:batwara.aanchal@gmail.com"
-                  className="block bg-brand-gold text-brand-navy px-6 py-4 rounded-lg hover:bg-white transition-all font-bold text-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                  className="block bg-brand-navy text-brand-gold border border-brand-gold px-6 py-4 rounded-lg hover:bg-brand-navy/90 transition-all font-bold text-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                 >
                   Contact Aanchal Batwara
                 </a>

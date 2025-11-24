@@ -20,7 +20,7 @@ export default function Hero() {
             </div>
 
             <div className="space-y-4">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-brand-navy leading-[1.1]">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-serif font-bold text-brand-navy leading-[1.1]">
                 Educational <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-navy to-brand-green">
                   Advocacy Summit

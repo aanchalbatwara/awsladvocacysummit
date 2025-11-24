@@ -21,11 +21,11 @@ export default function Navigation() {
               className="h-12 w-12 sm:h-14 sm:w-14 transition-transform group-hover:scale-105"
             />
             <div className="hidden sm:block">
-              <div className="text-lg font-bold text-brand-navy">Educational Advocacy Summit</div>
+              <div className="text-lg font-serif font-bold text-brand-navy">Educational Advocacy Summit</div>
               <div className="text-xs text-gray-600 font-medium">Association of Washington Student Leaders</div>
             </div>
             <div className="sm:hidden">
-              <div className="text-sm font-bold text-brand-navy">EAS 2026</div>
+              <div className="text-sm font-serif font-bold text-brand-navy">EAS 2026</div>
             </div>
           </Link>
 

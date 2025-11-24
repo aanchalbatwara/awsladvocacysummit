@@ -6,7 +6,7 @@ export default function Opportunities() {
     <section id="opportunities" className="py-16 bg-brand-cream">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-brand-navy mb-4">
+          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy mb-4">
             Choose Your Experience
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -26,7 +26,7 @@ export default function Opportunities() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/90 to-brand-navy/20"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white z-10">
-                <h3 className="text-2xl font-bold mb-1">In-Person Experience</h3>
+                <h3 className="text-2xl font-serif font-bold mb-1">In-Person Experience</h3>
                 <p className="text-blue-100 text-sm font-medium">February 13, 2026 • Washington State Capitol</p>
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function Opportunities() {
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
             <div className="bg-brand-teal p-6 text-white relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl transform translate-x-10 -translate-y-10"></div>
-              <h3 className="text-2xl font-bold mb-2 relative z-10">Virtual Experience</h3>
+              <h3 className="text-2xl font-serif font-bold mb-2 relative z-10">Virtual Experience</h3>
               <p className="text-cyan-100 relative z-10">February 14, 2026 • Online via Zoom</p>
             </div>
             <div className="p-6">

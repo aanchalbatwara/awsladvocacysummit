@@ -25,7 +25,7 @@ export default function Speakers() {
 
           {/* Content */}
           <div className="order-1 md:order-2">
-            <h2 className="text-3xl sm:text-4xl font-bold text-brand-navy mb-6">
+            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy mb-6">
               Learn from State Leaders
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
@@ -41,7 +41,7 @@ export default function Speakers() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-brand-navy">Direct Interaction</h3>
+                  <h3 className="text-lg font-serif font-semibold text-brand-navy">Direct Interaction</h3>
                   <p className="text-gray-600">
                     Ask questions and engage in meaningful conversations with elected officials
                   </p>
@@ -55,7 +55,7 @@ export default function Speakers() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-brand-navy">Real-World Insights</h3>
+                  <h3 className="text-lg font-serif font-semibold text-brand-navy">Real-World Insights</h3>
                   <p className="text-gray-600">
                     Learn how legislation is created and how you can influence policy
                   </p>
@@ -69,7 +69,7 @@ export default function Speakers() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-brand-navy">Career Pathways</h3>
+                  <h3 className="text-lg font-serif font-semibold text-brand-navy">Career Pathways</h3>
                   <p className="text-gray-600">
                     Explore opportunities in public service, law, and civic leadership
                   </p>
