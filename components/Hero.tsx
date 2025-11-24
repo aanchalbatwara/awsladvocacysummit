@@ -16,7 +16,7 @@ export default function Hero() {
             {/* Badge */}
             <div className="inline-flex items-center gap-3 bg-white px-4 py-2 rounded-full shadow-sm border border-brand-navy/10">
               <span className="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
-              <span className="text-sm font-semibold text-brand-navy tracking-wide uppercase">70th Anniversary</span>
+              <span className="text-sm font-semibold text-brand-navy tracking-wide uppercase">CELEBRATE AWSL'S 70TH YEAR ANNIVERSARY</span>
             </div>
 
             <div className="space-y-4">
@@ -53,8 +53,8 @@ export default function Hero() {
                 <div className="font-bold text-lg text-brand-navy">Feb 13, 2026</div>
                 <div className="text-sm text-gray-500">Olympia, WA</div>
               </div>
-              <div className="bg-white p-4 rounded-xl border-l-4 border-brand-green shadow-sm">
-                <div className="text-xs font-bold text-brand-green uppercase mb-1">Day 2 • Virtual</div>
+              <div className="bg-white p-4 rounded-xl border-l-4 border-brand-teal shadow-sm">
+                <div className="text-xs font-bold text-brand-teal uppercase mb-1">Day 2 • Virtual</div>
                 <div className="font-bold text-lg text-brand-navy">Feb 14, 2026</div>
                 <div className="text-sm text-gray-500">Online (Zoom)</div>
               </div>
@@ -74,7 +74,7 @@ export default function Hero() {
                   priority
                 />
                 {/* Overlay Gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/60 to-transparent opacity-60"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/60 to-transparent opacity-40"></div>
                 
                 {/* Floating Badge */}
                 <div className="absolute bottom-8 left-8 bg-white/95 backdrop-blur p-4 rounded-lg shadow-lg max-w-xs">

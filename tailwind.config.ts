@@ -8,13 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-source-sans)', 'system-ui', 'sans-serif'],
+        serif: ['var(--font-playfair)', 'Georgia', 'serif'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
         brand: {
           navy: '#0f2b4c', // Deep Navy
           gold: '#d4af37', // Metallic Gold
-          green: '#2e5a38', // Forest Green
+          green: '#2e5a38', // Forest Green (Keep for accents if needed, but reduce usage)
+          teal: '#0e7490', // Cyan-700 - A professional "Capitol" teal
+          slate: '#334155', // Slate-700 - For Virtual events
           cream: '#f8f7f4', // Off-white paper
           red: '#8a1b1b', // Deep Red for accents
         },
