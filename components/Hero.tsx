@@ -3,79 +3,87 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative h-[600px] md:h-[700px] flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-        <Image
-          src="/images/people.jpg"
-          alt="Students at Washington State Capitol"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
-      </div>
+    <section className="relative bg-brand-cream overflow-hidden">
+      {/* Decorative Background Elements */}
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-brand-navy/5 skew-x-12 transform origin-top-right translate-x-20" />
+      <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-gold/10 rounded-full blur-3xl" />
 
-      {/* Content */}
-      <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-        {/* 70th Anniversary Badge */}
-        <div className="mb-6 flex justify-center">
-          <Image
-            src="/images/AWSL2B70th2BAnniversary2BScreen2B1.png"
-            alt="70th Anniversary"
-            width={120}
-            height={120}
-            className="drop-shadow-lg"
-          />
-        </div>
-
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">
-          Educational Advocacy Summit
-        </h1>
-
-        <p className="text-xl sm:text-2xl md:text-3xl mb-6 font-light drop-shadow-md">
-          Association of Washington Student Leaders
-        </p>
-
-        <div className="bg-white/95 backdrop-blur-sm text-gray-900 rounded-lg p-6 sm:p-8 mb-8 shadow-2xl max-w-3xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-6 text-left">
-            {/* Day 1 */}
-            <div className="border-b md:border-b-0 md:border-r border-gray-300 pb-6 md:pb-0 md:pr-6">
-              <div className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">Day 1 - In Person</div>
-              <div className="text-2xl font-bold mb-2">February 13, 2026</div>
-              <div className="text-gray-600 space-y-1">
-                <p className="font-semibold">9:00 AM - 3:00 PM</p>
-                <p>Washington State Capitol</p>
-                <p className="text-sm">Olympia, WA</p>
-              </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-24 lg:pt-32 lg:pb-32 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+          
+          {/* Text Content */}
+          <div className="text-left space-y-8">
+            {/* Badge */}
+            <div className="inline-flex items-center gap-3 bg-white px-4 py-2 rounded-full shadow-sm border border-brand-navy/10">
+              <span className="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+              <span className="text-sm font-semibold text-brand-navy tracking-wide uppercase">70th Anniversary</span>
             </div>
 
-            {/* Day 2 */}
-            <div className="md:pl-6">
-              <div className="text-sm font-semibold text-green-600 uppercase tracking-wide mb-2">Day 2 - Virtual</div>
-              <div className="text-2xl font-bold mb-2">February 14, 2026</div>
-              <div className="text-gray-600 space-y-1">
-                <p className="font-semibold">9:00 AM - 1:00 PM</p>
-                <p>Zoom (Online)</p>
-                <p className="text-sm">Accessible Statewide</p>
+            <div className="space-y-4">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-brand-navy leading-[1.1]">
+                Educational <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-navy to-brand-green">
+                  Advocacy Summit
+                </span>
+              </h1>
+              <p className="text-xl text-gray-600 max-w-lg leading-relaxed">
+                Association of Washington Student Leaders
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-4">
+              <Link
+                href="/#register"
+                className="bg-brand-navy text-white font-semibold py-4 px-8 rounded-lg shadow-lg hover:bg-brand-navy/90 hover:shadow-xl transition-all transform hover:-translate-y-1"
+              >
+                Register Now
+              </Link>
+              <Link
+                href="/#about"
+                className="bg-white text-brand-navy border-2 border-brand-navy/10 font-semibold py-4 px-8 rounded-lg hover:border-brand-navy hover:bg-brand-navy/5 transition-all"
+              >
+                Learn More
+              </Link>
+            </div>
+
+            {/* Schedule Cards - Mini */}
+            <div className="grid sm:grid-cols-2 gap-4 pt-8">
+              <div className="bg-white p-4 rounded-xl border-l-4 border-brand-navy shadow-sm">
+                <div className="text-xs font-bold text-brand-navy uppercase mb-1">Day 1 • In Person</div>
+                <div className="font-bold text-lg text-brand-navy">Feb 13, 2026</div>
+                <div className="text-sm text-gray-500">Olympia, WA</div>
+              </div>
+              <div className="bg-white p-4 rounded-xl border-l-4 border-brand-green shadow-sm">
+                <div className="text-xs font-bold text-brand-green uppercase mb-1">Day 2 • Virtual</div>
+                <div className="font-bold text-lg text-brand-navy">Feb 14, 2026</div>
+                <div className="text-sm text-gray-500">Online (Zoom)</div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Link
-            href="/#register"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg transition-all transform hover:scale-105 text-lg"
-          >
-            Register Now
-          </Link>
-          <Link
-            href="/#about"
-            className="bg-white/90 hover:bg-white text-gray-900 font-semibold py-4 px-8 rounded-lg shadow-lg transition-all transform hover:scale-105 text-lg"
-          >
-            Learn More
-          </Link>
+          {/* Image Content */}
+          <div className="relative lg:h-[600px] w-full hidden lg:block">
+             <div className="absolute inset-0 bg-brand-navy rounded-2xl transform rotate-3 opacity-10"></div>
+             <div className="absolute inset-0 bg-brand-gold rounded-2xl transform -rotate-2 opacity-10"></div>
+             <div className="relative h-full w-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                <Image
+                  src="/images/people.jpg"
+                  alt="Students at Washington State Capitol"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+                {/* Overlay Gradient */}
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/60 to-transparent opacity-60"></div>
+                
+                {/* Floating Badge */}
+                <div className="absolute bottom-8 left-8 bg-white/95 backdrop-blur p-4 rounded-lg shadow-lg max-w-xs">
+                  <p className="text-brand-navy font-medium italic">
+                    "Empowering student voices to shape the future of education."
+                  </p>
+                </div>
+             </div>
+          </div>
         </div>
       </div>
     </section>

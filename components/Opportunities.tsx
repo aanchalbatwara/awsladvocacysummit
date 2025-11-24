@@ -2,10 +2,10 @@ import Link from 'next/link';
 
 export default function Opportunities() {
   return (
-    <section id="opportunities" className="py-16 bg-gray-50">
+    <section id="opportunities" className="py-16 bg-brand-cream">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-brand-navy mb-4">
             Choose Your Experience
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -15,15 +15,16 @@ export default function Opportunities() {
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* In-Person Opportunities */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-            <div className="bg-gradient-to-r from-blue-600 to-blue-500 p-6 text-white">
-              <h3 className="text-2xl font-bold mb-2">In-Person Experience</h3>
-              <p className="text-blue-100">February 13, 2026 • Washington State Capitol</p>
+          <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+            <div className="bg-brand-navy p-6 text-white relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl transform translate-x-10 -translate-y-10"></div>
+              <h3 className="text-2xl font-bold mb-2 relative z-10">In-Person Experience</h3>
+              <p className="text-blue-100 relative z-10">February 13, 2026 • Washington State Capitol</p>
             </div>
             <div className="p-6">
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-brand-navy mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">
@@ -31,7 +32,7 @@ export default function Opportunities() {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-brand-navy mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">
@@ -39,7 +40,7 @@ export default function Opportunities() {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-brand-navy mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">
@@ -47,7 +48,7 @@ export default function Opportunities() {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-brand-navy mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">
@@ -55,7 +56,7 @@ export default function Opportunities() {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-brand-navy mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">
@@ -63,7 +64,7 @@ export default function Opportunities() {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-brand-navy mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">
@@ -73,7 +74,7 @@ export default function Opportunities() {
               </ul>
               <Link
                 href="/schedule/in-person"
-                className="mt-6 block text-center bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors font-semibold"
+                className="mt-6 block text-center bg-brand-navy text-white py-3 px-6 rounded-lg hover:bg-brand-navy/90 transition-colors font-semibold shadow-sm"
               >
                 View In-Person Schedule
               </Link>
@@ -81,15 +82,16 @@ export default function Opportunities() {
           </div>
 
           {/* Virtual Opportunities */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-            <div className="bg-gradient-to-r from-green-600 to-green-500 p-6 text-white">
-              <h3 className="text-2xl font-bold mb-2">Virtual Experience</h3>
-              <p className="text-green-100">February 14, 2026 • Online via Zoom</p>
+          <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+            <div className="bg-brand-green p-6 text-white relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl transform translate-x-10 -translate-y-10"></div>
+              <h3 className="text-2xl font-bold mb-2 relative z-10">Virtual Experience</h3>
+              <p className="text-green-100 relative z-10">February 14, 2026 • Online via Zoom</p>
             </div>
             <div className="p-6">
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-600 mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-brand-green mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">
@@ -97,7 +99,7 @@ export default function Opportunities() {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-600 mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-brand-green mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">
@@ -105,7 +107,7 @@ export default function Opportunities() {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-600 mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-brand-green mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">
@@ -113,7 +115,7 @@ export default function Opportunities() {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-600 mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-brand-green mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">
@@ -121,7 +123,7 @@ export default function Opportunities() {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-600 mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-brand-green mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">
@@ -129,7 +131,7 @@ export default function Opportunities() {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-600 mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-brand-green mr-3 flex-shrink-0 mt-1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">
@@ -139,7 +141,7 @@ export default function Opportunities() {
               </ul>
               <Link
                 href="/schedule/virtual"
-                className="mt-6 block text-center bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-700 transition-colors font-semibold"
+                className="mt-6 block text-center bg-brand-green text-white py-3 px-6 rounded-lg hover:bg-brand-green/90 transition-colors font-semibold shadow-sm"
               >
                 View Virtual Schedule
               </Link>

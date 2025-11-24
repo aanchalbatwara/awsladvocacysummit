@@ -11,6 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        brand: {
+          navy: '#0f2b4c', // Deep Navy
+          gold: '#d4af37', // Metallic Gold
+          green: '#2e5a38', // Forest Green
+          cream: '#f8f7f4', // Off-white paper
+          red: '#8a1b1b', // Deep Red for accents
+        },
         blue: {
           50: '#eef2ff',
           100: '#e0e7ff',

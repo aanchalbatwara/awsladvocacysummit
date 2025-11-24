@@ -8,44 +8,44 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
+    <nav className="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-50 border-t-4 border-brand-gold">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo Section */}
-          <Link href="/" className="flex items-center space-x-4">
+          <Link href="/" className="flex items-center space-x-4 group">
             <Image
               src="/images/AWSL_Seal_Style_Logo_2021_final.png"
               alt="AWSL Logo"
               width={60}
               height={60}
-              className="h-12 w-12 sm:h-14 sm:w-14"
+              className="h-12 w-12 sm:h-14 sm:w-14 transition-transform group-hover:scale-105"
             />
             <div className="hidden sm:block">
-              <div className="text-lg font-bold text-gray-900">Educational Advocacy Summit</div>
-              <div className="text-xs text-gray-600">Association of Washington Student Leaders</div>
+              <div className="text-lg font-bold text-brand-navy">Educational Advocacy Summit</div>
+              <div className="text-xs text-gray-600 font-medium">Association of Washington Student Leaders</div>
             </div>
             <div className="sm:hidden">
-              <div className="text-sm font-bold text-gray-900">EAS 2026</div>
+              <div className="text-sm font-bold text-brand-navy">EAS 2026</div>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/#about" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link href="/#about" className="text-gray-600 hover:text-brand-navy font-medium transition-colors">
               About
             </Link>
-            <Link href="/#opportunities" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link href="/#opportunities" className="text-gray-600 hover:text-brand-navy font-medium transition-colors">
               Opportunities
             </Link>
-            <Link href="/schedule/in-person" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link href="/schedule/in-person" className="text-gray-600 hover:text-brand-navy font-medium transition-colors">
               In-Person Schedule
             </Link>
-            <Link href="/schedule/virtual" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link href="/schedule/virtual" className="text-gray-600 hover:text-brand-navy font-medium transition-colors">
               Virtual Schedule
             </Link>
             <Link
               href="/#register"
-              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-semibold"
+              className="bg-brand-navy text-white px-6 py-2 rounded-lg hover:bg-brand-navy/90 transition-all shadow-md hover:shadow-lg font-semibold"
             >
               Register
             </Link>
@@ -77,38 +77,38 @@ export default function Navigation() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden pb-4 space-y-3">
+          <div className="md:hidden pb-4 space-y-3 border-t border-gray-100 pt-4">
             <Link
               href="/#about"
-              className="block py-2 text-gray-700 hover:text-blue-600 transition-colors"
+              className="block py-2 text-gray-600 hover:text-brand-navy font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
             <Link
               href="/#opportunities"
-              className="block py-2 text-gray-700 hover:text-blue-600 transition-colors"
+              className="block py-2 text-gray-600 hover:text-brand-navy font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Opportunities
             </Link>
             <Link
               href="/schedule/in-person"
-              className="block py-2 text-gray-700 hover:text-blue-600 transition-colors"
+              className="block py-2 text-gray-600 hover:text-brand-navy font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               In-Person Schedule
             </Link>
             <Link
               href="/schedule/virtual"
-              className="block py-2 text-gray-700 hover:text-blue-600 transition-colors"
+              className="block py-2 text-gray-600 hover:text-brand-navy font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Virtual Schedule
             </Link>
             <Link
               href="/#register"
-              className="block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-center"
+              className="block bg-brand-navy text-white px-6 py-2 rounded-lg hover:bg-brand-navy/90 transition-colors font-semibold text-center mt-4"
               onClick={() => setIsMenuOpen(false)}
             >
               Register
