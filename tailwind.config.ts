@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ['var(--font-source-sans)', 'system-ui', 'sans-serif'],
-        serif: ['var(--font-playfair)', 'Georgia', 'serif'],
+        serif: ['var(--font-merriweather)', 'Georgia', 'serif'],
       },
       colors: {
         background: "var(--background)",

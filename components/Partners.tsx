@@ -96,16 +96,16 @@ export default function Partners() {
               </p>
               <div className="space-y-2">
                 <a
-                  href="mailto:roz@awsp.org"
+                  href="mailto:batwara.aanchal@gmail.com"
                   className="block bg-white text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors font-semibold text-center"
                 >
-                  Contact Roz Thompson
+                  Contact Aanchal Batwara
                 </a>
                 <a
-                  href="mailto:james@awsleaders.org"
+                  href="mailto:gtbc@uw.edu"
                   className="block bg-white text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors font-semibold text-center"
                 >
-                  Contact James Laymen
+                  Contact Gavin
                 </a>
               </div>
             </div>

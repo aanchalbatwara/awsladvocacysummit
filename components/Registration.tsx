@@ -74,17 +74,17 @@ export default function Registration() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="mailto:roz@awsp.org"
+              href="mailto:batwara.aanchal@gmail.com"
               className="text-brand-navy hover:text-brand-gold transition-colors underline font-medium"
             >
-              roz@awsp.org
+              batwara.aanchal@gmail.com
             </a>
             <span className="hidden sm:inline text-gray-400">•</span>
             <a
-              href="mailto:james@awsleaders.org"
+              href="mailto:gtbc@uw.edu"
               className="text-brand-navy hover:text-brand-gold transition-colors underline font-medium"
             >
-              james@awsleaders.org
+              gtbc@uw.edu
             </a>
           </div>
         </div>

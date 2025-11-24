@@ -115,15 +115,15 @@ export default function VirtualSchedule() {
           </Link>
           <h1 className="text-5xl sm:text-6xl font-serif font-bold mb-6 tracking-tight">Virtual Schedule</h1>
           <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 text-lg sm:text-xl font-light text-brand-cream/90">
-            <div className="flex items-center">
+            <div className="flex items-center font-bold">
               <svg className="h-6 w-6 mr-2 text-brand-cream" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
               Saturday, February 14, 2026
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center font-bold">
               <svg className="h-6 w-6 mr-2 text-brand-cream" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               100% Online via Zoom
             </div>

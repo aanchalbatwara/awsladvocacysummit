@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Source_Sans_3 } from 'next/font/google';
+import { Merriweather, Source_Sans_3 } from 'next/font/google';
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
-const playfair = Playfair_Display({ 
+const merriweather = Merriweather({ 
   subsets: ['latin'],
-  variable: '--font-playfair',
+  weight: ['300', '400', '700', '900'],
+  variable: '--font-merriweather',
   display: 'swap',
 });
 
@@ -33,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfair.variable} ${sourceSans.variable}`}>
+    <html lang="en" className={`${merriweather.variable} ${sourceSans.variable}`}>
       <body className="antialiased font-sans">
         <Navigation />
         <main className="min-h-screen">

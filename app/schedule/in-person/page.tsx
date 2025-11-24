@@ -17,7 +17,7 @@ export default function InPersonSchedule() {
     {
       time: '9:00 - 9:15 AM',
       title: 'Opening Session & Welcome',
-      description: 'James Laymen and Dr. Roz Thompson introduce AWSL and AWSP. Meet the Executive Board and key staff who will guide you throughout the day. Overview of the day\'s purpose and goals.'
+      description: 'Gavin and Aanchal Batwara introduce AWSL and AWSP. Meet the Executive Board and key staff who will guide you throughout the day. Overview of the day\'s purpose and goals.'
     },
     {
       time: '9:15 - 9:30 AM',
