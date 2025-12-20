@@ -31,8 +31,11 @@ export default function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/#about" className="text-gray-600 hover:text-brand-navy font-medium transition-colors">
+            <Link href="/about" className="text-gray-600 hover:text-brand-navy font-medium transition-colors">
               About
+            </Link>
+            <Link href="/faq" className="text-gray-600 hover:text-brand-navy font-medium transition-colors">
+              FAQ
             </Link>
             <Link href="/#opportunities" className="text-gray-600 hover:text-brand-navy font-medium transition-colors">
               Opportunities
@@ -79,11 +82,18 @@ export default function Navigation() {
         {isMenuOpen && (
           <div className="md:hidden pb-4 space-y-3 border-t border-gray-100 pt-4">
             <Link
-              href="/#about"
+              href="/about"
               className="block py-2 text-gray-600 hover:text-brand-navy font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               About
+            </Link>
+            <Link
+              href="/faq"
+              className="block py-2 text-gray-600 hover:text-brand-navy font-medium transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              FAQ
             </Link>
             <Link
               href="/#opportunities"

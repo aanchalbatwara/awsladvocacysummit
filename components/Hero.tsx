@@ -39,7 +39,7 @@ export default function Hero() {
                 Register Now
               </Link>
               <Link
-                href="/#about"
+                href="/#summit"
                 className="bg-white text-brand-navy border-2 border-brand-navy/10 font-semibold py-4 px-8 rounded-lg hover:border-brand-navy hover:bg-brand-navy/5 transition-all"
               >
                 Learn More

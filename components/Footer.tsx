@@ -89,7 +89,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="text-gray-300">
-                <div className="font-semibold text-white">James Laymen</div>
+                <div className="font-semibold text-white">James Layman</div>
                 <a href="mailto:james@awsleaders.org" className="hover:text-brand-gold transition-colors">
                   james@awsleaders.org
                 </a>
