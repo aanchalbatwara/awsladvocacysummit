@@ -208,7 +208,7 @@ export default function AboutPage() {
                 <h3 className="text-xl font-bold text-brand-navy mb-1">Gavin Cruz</h3>
                 <p className="text-sm font-semibold text-brand-green uppercase tracking-wide mb-3">Student Leader</p>
                 <p className="text-gray-600 text-sm leading-relaxed mb-3">
-                  A senior at Olympia High School committed to civic engagement. Gavin represents the power of student advocacy in action.
+                  A freshman at the University of Washington committed to civic engagement. Gavin represents the power of student advocacy in action.
                 </p>
                 <a href="mailto:gtbc@uw.edu" className="text-brand-teal hover:text-brand-navy transition-colors text-sm font-medium flex items-center gap-2">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
