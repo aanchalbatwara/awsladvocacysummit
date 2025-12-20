@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'In-Person Schedule | Educational Advocacy Summit 2026',
-  description: 'Detailed schedule for the in-person Educational Advocacy Summit at the Washington State Capitol on February 13, 2026.',
+  description: 'Detailed schedule for the in-person Educational Advocacy Summit at the Washington State Capitol on February 20, 2026.',
 };
 
 export default function InPersonSchedule() {
@@ -101,7 +101,7 @@ export default function InPersonSchedule() {
               <svg className="h-6 w-6 mr-2 text-brand-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
-              Friday, February 13, 2026
+              Friday, February 20, 2026
             </div>
             <div className="flex items-center">
               <svg className="h-6 w-6 mr-2 text-brand-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">

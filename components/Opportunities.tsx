@@ -27,7 +27,7 @@ export default function Opportunities() {
               <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/90 to-brand-navy/20"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white z-10">
                 <h3 className="text-2xl font-serif font-bold mb-1">In-Person Experience</h3>
-                <p className="text-blue-100 text-sm font-medium">February 13, 2026 • Washington State Capitol</p>
+                <p className="text-blue-100 text-sm font-medium">February 20, 2026 • Washington State Capitol</p>
               </div>
             </div>
             <div className="p-6">
@@ -95,7 +95,7 @@ export default function Opportunities() {
             <div className="bg-brand-teal p-6 text-white relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl transform translate-x-10 -translate-y-10"></div>
               <h3 className="text-2xl font-serif font-bold mb-2 relative z-10">Virtual Experience</h3>
-              <p className="text-cyan-100 relative z-10">February 14, 2026 • Online via Zoom</p>
+              <p className="text-cyan-100 relative z-10">February 21, 2026 • Online via Zoom</p>
             </div>
             <div className="p-6">
               <ul className="space-y-4">

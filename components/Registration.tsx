@@ -24,7 +24,7 @@ export default function Registration() {
               <h3 className="text-xl font-serif font-bold text-brand-navy">Choose Your Day</h3>
             </div>
             <p className="text-gray-600 leading-relaxed">
-              Attend in-person on Feb 13th, join virtually on Feb 14th, or participate in both days
+              Attend in-person on Feb 20th, join virtually on Feb 21th, or participate in both days
             </p>
           </div>
 

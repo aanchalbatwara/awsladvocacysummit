@@ -238,14 +238,6 @@ export default function AboutPage() {
             >
               Register Now
             </Link>
-            <Link
-              href="https://awsleaders.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-lg hover:bg-white/10 transition-colors"
-            >
-              Visit Main Website
-            </Link>
           </div>
         </div>
       </section>

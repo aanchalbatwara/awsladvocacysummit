@@ -50,12 +50,12 @@ export default function Hero() {
             <div className="grid sm:grid-cols-2 gap-4 pt-8">
               <div className="bg-white p-4 rounded-xl border-l-4 border-brand-navy shadow-sm">
                 <div className="text-xs font-bold text-brand-navy uppercase mb-1">Day 1 • In Person</div>
-                <div className="font-bold text-lg text-brand-navy">Feb 13, 2026</div>
+                <div className="font-bold text-lg text-brand-navy">Feb 20, 2026</div>
                 <div className="text-sm text-gray-500">Olympia, WA</div>
               </div>
               <div className="bg-white p-4 rounded-xl border-l-4 border-brand-teal shadow-sm">
                 <div className="text-xs font-bold text-brand-teal uppercase mb-1">Day 2 • Virtual</div>
-                <div className="font-bold text-lg text-brand-navy">Feb 14, 2026</div>
+                <div className="font-bold text-lg text-brand-navy">Feb 21, 2026</div>
                 <div className="text-sm text-gray-500">Online (Zoom)</div>
               </div>
             </div>

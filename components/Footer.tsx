@@ -97,7 +97,7 @@ export default function Footer() {
             </ul>
             <div className="mt-6 pt-6 border-t border-white/10">
               <p className="text-xs text-gray-400">
-                February 13-14, 2026
+                February 20-21, 2026
                 <br />
                 Washington State Capitol & Virtual
               </p>

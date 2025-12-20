@@ -19,7 +19,7 @@ const sourceSans = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: "Educational Advocacy Summit 2026 | AWSL",
-  description: "Join high school students across Washington State for the Educational Advocacy Summit. Meet legislators, learn about government, and advocate for civic education. February 13-14, 2026.",
+  description: "Join high school students across Washington State for the Educational Advocacy Summit. Meet legislators, learn about government, and advocate for civic education. February 20-21, 2026.",
   keywords: ["civic education", "student advocacy", "Washington State", "AWSL", "legislators", "Capitol", "youth leadership"],
   openGraph: {
     title: "Educational Advocacy Summit 2026",

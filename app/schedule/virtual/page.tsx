@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Virtual Schedule | Educational Advocacy Summit 2026',
-  description: 'Detailed schedule for the virtual Educational Advocacy Summit on February 14, 2026. Join from anywhere in Washington State!',
+  description: 'Detailed schedule for the virtual Educational Advocacy Summit on February 21, 2026. Join from anywhere in Washington State!',
 };
 
 export default function VirtualSchedule() {
@@ -119,7 +119,7 @@ export default function VirtualSchedule() {
               <svg className="h-6 w-6 mr-2 text-brand-cream" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
-              Saturday, February 14, 2026
+              Saturday, February 21, 2026
             </div>
             <div className="flex items-center font-bold">
               <svg className="h-6 w-6 mr-2 text-brand-cream" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -251,7 +251,7 @@ export default function VirtualSchedule() {
           <div className="relative z-10">
             <h2 className="text-3xl font-serif font-bold mb-4">Ready to Participate Virtually?</h2>
             <p className="text-brand-cream/90 mb-8 text-lg max-w-2xl mx-auto">
-              Join from anywhere in Washington State on February 14th.
+              Join from anywhere in Washington State on February 21st.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
