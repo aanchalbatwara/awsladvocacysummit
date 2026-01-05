@@ -49,21 +49,89 @@ export default function Registration() {
           </div>
         </div>
 
-        {/* Embedded Google Form */}
-        <div className="max-w-3xl mx-auto">
-          <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-brand-navy/10">
-            <div className="aspect-[16/20] w-full">
-              <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLSeVvXtwkajnh-DnHgf50i3RHZESfy4D0ZG3bJfV0bhP0RWiuA/viewform?embedded=true"
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                marginHeight={0}
-                marginWidth={0}
-                className="w-full h-full"
-              >
-                Loading…
-              </iframe>
+        {/* Registration Options */}
+        <div className="max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* In-Person Registration Card */}
+            <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-brand-navy/10 hover:shadow-2xl transition-shadow duration-300">
+              <div className="bg-brand-navy p-6">
+                <div className="flex items-center gap-4">
+                  <div className="text-4xl">🏛️</div>
+                  <div>
+                    <h3 className="text-2xl font-serif font-bold text-white">In-Person</h3>
+                    <p className="text-blue-200 text-sm">February 20, 2026</p>
+                  </div>
+                </div>
+              </div>
+              <div className="p-6">
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand-gold flex-shrink-0" />
+                    <span className="text-gray-700">Visit the Washington State Capitol</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand-gold flex-shrink-0" />
+                    <span className="text-gray-700">Meet legislators face-to-face</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand-gold flex-shrink-0" />
+                    <span className="text-gray-700">Network with student leaders</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand-gold flex-shrink-0" />
+                    <span className="text-gray-700">Participate in hands-on workshops</span>
+                  </li>
+                </ul>
+                <a
+                  href="https://awschools.jotform.com/253504320178047"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full bg-brand-navy text-white font-bold py-3 px-6 rounded-lg hover:bg-brand-navy/90 transition-all shadow-md hover:shadow-lg text-center"
+                >
+                  Register for In-Person
+                </a>
+              </div>
+            </div>
+
+            {/* Virtual Registration Card */}
+            <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-brand-navy/10 hover:shadow-2xl transition-shadow duration-300">
+              <div className="bg-brand-teal p-6">
+                <div className="flex items-center gap-4">
+                  <div className="text-4xl">💻</div>
+                  <div>
+                    <h3 className="text-2xl font-serif font-bold text-white">Virtual</h3>
+                    <p className="text-teal-100 text-sm">February 21, 2026</p>
+                  </div>
+                </div>
+              </div>
+              <div className="p-6">
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand-teal flex-shrink-0" />
+                    <span className="text-gray-700">Join from anywhere in Washington</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand-teal flex-shrink-0" />
+                    <span className="text-gray-700">Interactive virtual workshops</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand-teal flex-shrink-0" />
+                    <span className="text-gray-700">Digital networking opportunities</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand-teal flex-shrink-0" />
+                    <span className="text-gray-700">Live Q&A with speakers</span>
+                  </li>
+                </ul>
+                <a
+                  href="https://awschools.jotform.com/253536437277970"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full bg-brand-teal text-white font-bold py-3 px-6 rounded-lg hover:bg-brand-teal/90 transition-all shadow-md hover:shadow-lg text-center"
+                >
+                  Register for Virtual
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -74,17 +142,10 @@ export default function Registration() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="mailto:batwara.aanchal@gmail.com"
+              href="mailto:awsladvocacysummit@gmail.com"
               className="text-brand-navy hover:text-brand-gold transition-colors underline font-medium"
             >
-              batwara.aanchal@gmail.com
-            </a>
-            <span className="hidden sm:inline text-gray-400">•</span>
-            <a
-              href="mailto:gtbc@uw.edu"
-              className="text-brand-navy hover:text-brand-gold transition-colors underline font-medium"
-            >
-              gtbc@uw.edu
+              awsladvocacysummit@gmail.com
             </a>
           </div>
         </div>

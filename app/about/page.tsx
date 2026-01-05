@@ -180,7 +180,7 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-navy mb-1">Aanchal Batwara</h3>
-                <p className="text-sm font-semibold text-brand-green uppercase tracking-wide mb-3">Student Leader</p>
+                <p className="text-sm font-semibold text-brand-green uppercase tracking-wide mb-3">Student Director</p>
                 <p className="text-gray-600 text-sm leading-relaxed mb-3">
                   Dedicated to elevating student voice in decision-making. Aanchal brings a fresh perspective from Tesla STEM High School to the statewide advocacy stage.
                 </p>
@@ -206,7 +206,7 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-navy mb-1">Gavin Cruz</h3>
-                <p className="text-sm font-semibold text-brand-green uppercase tracking-wide mb-3">Student Leader</p>
+                <p className="text-sm font-semibold text-brand-green uppercase tracking-wide mb-3">Student Director</p>
                 <p className="text-gray-600 text-sm leading-relaxed mb-3">
                   A freshman at the University of Washington committed to civic engagement. Gavin represents the power of student advocacy in action.
                 </p>

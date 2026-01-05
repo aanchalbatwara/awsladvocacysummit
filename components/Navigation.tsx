@@ -46,6 +46,9 @@ export default function Navigation() {
             <Link href="/schedule/virtual" className="text-gray-600 hover:text-brand-navy font-medium transition-colors">
               Virtual Schedule
             </Link>
+            <Link href="/support" className="text-gray-600 hover:text-brand-navy font-medium transition-colors">
+              Support
+            </Link>
             <Link
               href="/#register"
               className="bg-brand-navy text-white px-6 py-2 rounded-lg hover:bg-brand-navy/90 transition-all shadow-md hover:shadow-lg font-semibold"
@@ -115,6 +118,13 @@ export default function Navigation() {
               onClick={() => setIsMenuOpen(false)}
             >
               Virtual Schedule
+            </Link>
+            <Link
+              href="/support"
+              className="block py-2 text-gray-600 hover:text-brand-navy font-medium transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Support
             </Link>
             <Link
               href="/#register"

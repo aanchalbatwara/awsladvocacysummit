@@ -56,6 +56,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/support" className="text-gray-300 hover:text-white hover:translate-x-1 transition-all inline-block">
+                  Support AWSL
+                </Link>
+              </li>
+              <li>
                 <a
                   href="https://awsleaders.org/"
                   target="_blank"
@@ -92,6 +97,12 @@ export default function Footer() {
                 <div className="font-semibold text-white">James Layman</div>
                 <a href="mailto:james@awsleaders.org" className="hover:text-brand-gold transition-colors">
                   james@awsleaders.org
+                </a>
+              </li>
+              <li className="text-gray-300">
+                <div className="font-semibold text-white">Aanchal Batwara &amp; Gavin Cruz</div>
+                <a href="mailto:awsladvocacysummit@gmail.com" className="hover:text-brand-gold transition-colors">
+                  awsladvocacysummit@gmail.com
                 </a>
               </li>
             </ul>
