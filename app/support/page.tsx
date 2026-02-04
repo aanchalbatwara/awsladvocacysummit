@@ -20,109 +20,141 @@ export default function SupportPage() {
         </div>
       </section>
 
-      {/* Why Support Section */}
-      <section className="pt-16 md:pt-24 pb-8 md:pb-12 bg-brand-cream relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-navy mb-6">
-              Why Your Support Matters
-            </h2>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Imagine a world where every young leader, regardless of their background or financial situation, has the opportunity to ignite their potential. A world where the spark of leadership can flourish in every corner of our state.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-12">
-            {/* Summer Camps Card */}
-            <div className="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-brand-gold">
-              <div className="w-14 h-14 bg-brand-gold/10 rounded-full flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-brand-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-serif font-bold text-brand-navy mb-4">Summer Camps</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Today, rising transportation costs pose a significant barrier, limiting access to transformative summer leadership camps for many promising young minds. These camps offer invaluable experiences that foster essential skills like critical thinking, problem-solving, and effective communication. They inspire young leaders to dream big and strive for greatness.
-              </p>
-            </div>
-
-            {/* Student Voice Programs Card */}
-            <div className="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-brand-teal">
-              <div className="w-14 h-14 bg-brand-teal/10 rounded-full flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-brand-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-serif font-bold text-brand-navy mb-4">Student Voice Programs</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Supporting AWSL Student Voice and student-centered initiatives is essential to closing access gaps and dismantling financial barriers that too often prevent students from fully stepping into their leadership potential. These programs create equitable pathways for students to grow, support one another, and sustain their leadership development as changemakers in their schools and communities.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Sponsors Section */}
-      <section className="pt-8 md:pt-12 pb-16 md:pb-24 bg-gray-50">
+      <section className="py-16 md:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-serif font-bold text-brand-navy mb-4">Our Partners</h2>
           </div>
 
-          {/* Gold Sponsor */}
-          <div className="mb-16">
-            <h3 className="text-center text-2xl font-serif font-bold text-brand-gold mb-8">Gold Sponsor</h3>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-12">
-              <div className="text-center">
-                <Image
-                  src="/images/LEV.png"
-                  alt="League of Education Voters"
-                  width={200}
-                  height={200}
-                  className="mx-auto mb-4 object-contain"
-                />
-                <p className="text-sm text-gray-600 font-medium">League of Education Voters</p>
-              </div>
-              <div className="text-center">
-                <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-brand-gold/20">
-                  <Image
-                    src="/images/arik.jpeg"
-                    alt="Arik Korman"
-                    fill
-                    className="object-cover"
-                  />
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mb-16">
+            {/* Gold Sponsor Card */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg overflow-hidden border-t-4 border-brand-gold flex flex-col h-full hover:shadow-xl transition-shadow duration-300">
+              <h3 className="text-2xl font-serif font-bold text-brand-gold mb-8 text-center">Gold Sponsor</h3>
+
+              <div className="flex-grow flex flex-col gap-8">
+                {/* Top Section: Logo & CEO */}
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
+                  {/* Logo */}
+                  <div className="flex-1 flex justify-center items-center">
+                     <Image
+                        src="/images/LEV.png"
+                        alt="League of Education Voters"
+                        width={180}
+                        height={180}
+                        className="max-h-24 w-auto object-contain"
+                      />
+                  </div>
+                  
+                  {/* Divider (vertical on desktop) */}
+                  <div className="hidden sm:block w-px h-16 bg-gray-200"></div>
+
+                  {/* CEO */}
+                  <div className="flex-1 flex flex-col items-center text-center">
+                    <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-brand-gold mb-2 shadow-sm">
+                       <Image
+                        src="/images/arik.jpeg"
+                        alt="Arik Korman"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <div>
+                       <p className="font-bold text-brand-navy leading-tight">Arik Korman</p>
+                       <p className="text-xs text-gray-500 uppercase tracking-wide font-medium">CEO</p>
+                    </div>
+                  </div>
                 </div>
-                <p className="text-lg font-bold text-brand-navy">Arik Korman</p>
-                <p className="text-sm text-gray-600">CEO</p>
+
+                {/* Divider */}
+                <hr className="border-gray-100" />
+
+                {/* Content Section */}
+                <div className="space-y-6 text-sm">
+                   <div>
+                      <h4 className="font-bold text-brand-navy mb-2 flex items-center gap-2 text-base">
+                         <span className="w-2 h-2 rounded-full bg-brand-gold"></span>
+                         About Us
+                      </h4>
+                      <p className="text-gray-600 leading-relaxed">
+                        League of Education Voters Foundation (LEV) works to create learning environments from early learning to K-12 to postsecondary where every Washington student feels safe, supported, and a positive sense of belonging, so that they can achieve academically and access the life they choose.
+                      </p>
+                   </div>
+                   <div>
+                      <h4 className="font-bold text-brand-navy mb-2 flex items-center gap-2 text-base">
+                         <span className="w-2 h-2 rounded-full bg-brand-gold"></span>
+                         Why We Support Civic Education
+                      </h4>
+                      <p className="text-gray-600 leading-relaxed">
+                        Students have an important voice in shaping the education system. Families are critical partners in student success. We commit to working with students, families, and communities – especially Black, Indigenous and students of color, students with disabilities, multilingual learners, students who identify as LGBTQ+, students experiencing homelessness, foster youth, and other historically marginalized students – to identify barriers and formulate solutions together, and we support them in organizing to advocate for their future.
+                      </p>
+                   </div>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Silver Sponsor */}
-          <div className="mb-16">
-            <h3 className="text-center text-2xl font-serif font-bold text-gray-400 mb-8">Silver Sponsor</h3>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-12">
-              <div className="text-center">
-                <Image
-                  src="/images/WYA.png"
-                  alt="Washington Youth Alliance"
-                  width={180}
-                  height={180}
-                  className="mx-auto mb-4 object-contain"
-                />
-                <p className="text-sm text-gray-600 font-medium">Washington Youth Alliance</p>
-              </div>
-              <div className="text-center">
-                <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-gray-200">
-                  <Image
-                    src="/images/chetan.jpeg"
-                    alt="Chetan Soni"
-                    fill
-                    className="object-cover"
-                  />
+            {/* Silver Sponsor Card */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg overflow-hidden border-t-4 border-gray-400 flex flex-col h-full hover:shadow-xl transition-shadow duration-300">
+              <h3 className="text-2xl font-serif font-bold text-gray-400 mb-8 text-center">Silver Sponsor</h3>
+
+              <div className="flex-grow flex flex-col gap-8">
+                {/* Top Section: Logo & CEO */}
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
+                  {/* Logo */}
+                  <div className="flex-1 flex justify-center items-center">
+                     <Image
+                        src="/images/WYA.png"
+                        alt="Washington Youth Alliance"
+                        width={160}
+                        height={160}
+                        className="max-h-24 w-auto object-contain"
+                      />
+                  </div>
+                  
+                  {/* Divider (vertical on desktop) */}
+                  <div className="hidden sm:block w-px h-16 bg-gray-200"></div>
+
+                  {/* CEO */}
+                  <div className="flex-1 flex flex-col items-center text-center">
+                    <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-gray-300 mb-2 shadow-sm">
+                       <Image
+                        src="/images/chetan.jpeg"
+                        alt="Chetan Soni"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <div>
+                       <p className="font-bold text-brand-navy leading-tight">Chetan Soni</p>
+                       <p className="text-xs text-gray-500 uppercase tracking-wide font-medium">CEO</p>
+                    </div>
+                  </div>
                 </div>
-                <p className="text-lg font-bold text-brand-navy">Chetan Soni</p>
-                <p className="text-sm text-gray-600">CEO</p>
+
+                {/* Divider */}
+                <hr className="border-gray-100" />
+
+                {/* Content Section */}
+                <div className="space-y-6 text-sm">
+                   <div>
+                      <h4 className="font-bold text-brand-navy mb-2 flex items-center gap-2 text-base">
+                         <span className="w-2 h-2 rounded-full bg-gray-400"></span>
+                         About Us
+                      </h4>
+                      <p className="text-gray-600 leading-relaxed">
+                        WYA is Washington's only youth-led organization ensuring young people don't just have a voice—they lead. We collaborate with underserved youth to turn their lived experiences into systemic change, from peer education campaigns to our annual Youth Day of Action in Olympia.
+                      </p>
+                   </div>
+                   <div>
+                      <h4 className="font-bold text-brand-navy mb-2 flex items-center gap-2 text-base">
+                         <span className="w-2 h-2 rounded-full bg-gray-400"></span>
+                         Why We Support Civic Education
+                      </h4>
+                      <p className="text-gray-600 leading-relaxed">
+                        Student leaders can't drive systemic change without civic education. WYA ensures youth have the skills to turn their ideas into legislation, campaigns, and community solutions that create real, lasting change.
+                      </p>
+                   </div>
+                </div>
               </div>
             </div>
           </div>
@@ -247,6 +279,48 @@ export default function SupportPage() {
                   The Association of Washington Student Leaders is a division of the Washington School Principals' Education Foundation
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Support Section */}
+      <section className="py-16 md:py-24 bg-brand-cream relative">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-navy mb-6">
+              Why Your Support Matters
+            </h2>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              Imagine a world where every young leader, regardless of their background or financial situation, has the opportunity to ignite their potential. A world where the spark of leadership can flourish in every corner of our state.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* Summer Camps Card */}
+            <div className="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-brand-gold">
+              <div className="w-14 h-14 bg-brand-gold/10 rounded-full flex items-center justify-center mb-6">
+                <svg className="w-7 h-7 text-brand-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-serif font-bold text-brand-navy mb-4">Summer Camps</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Today, rising transportation costs pose a significant barrier, limiting access to transformative summer leadership camps for many promising young minds. These camps offer invaluable experiences that foster essential skills like critical thinking, problem-solving, and effective communication. They inspire young leaders to dream big and strive for greatness.
+              </p>
+            </div>
+
+            {/* Student Voice Programs Card */}
+            <div className="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-brand-teal">
+              <div className="w-14 h-14 bg-brand-teal/10 rounded-full flex items-center justify-center mb-6">
+                <svg className="w-7 h-7 text-brand-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-serif font-bold text-brand-navy mb-4">Student Voice Programs</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Supporting AWSL Student Voice and student-centered initiatives is essential to closing access gaps and dismantling financial barriers that too often prevent students from fully stepping into their leadership potential. These programs create equitable pathways for students to grow, support one another, and sustain their leadership development as changemakers in their schools and communities.
+              </p>
             </div>
           </div>
         </div>
