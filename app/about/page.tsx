@@ -174,7 +174,7 @@ export default function AboutPage() {
                   src="/images/aanchal.png"
                   alt="Aanchal Batwara"
                   fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="object-cover scale-110 transition-transform duration-500 group-hover:scale-115"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 />
               </div>

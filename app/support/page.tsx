@@ -21,7 +21,7 @@ export default function SupportPage() {
       </section>
 
       {/* Why Support Section */}
-      <section className="py-16 md:py-24 bg-brand-cream relative">
+      <section className="pt-16 md:pt-24 pb-8 md:pb-12 bg-brand-cream relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-navy mb-6">
@@ -63,19 +63,16 @@ export default function SupportPage() {
       </section>
 
       {/* Sponsors Section */}
-      <section className="py-16 md:py-24 bg-gray-50">
+      <section className="pt-8 md:pt-12 pb-16 md:pb-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-serif font-bold text-brand-navy mb-4">Our Partners</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              AWSL is proudly sponsored by the Association of Washington School Principals
-            </p>
           </div>
 
           {/* Gold Sponsor */}
           <div className="mb-16">
             <h3 className="text-center text-2xl font-serif font-bold text-brand-gold mb-8">Gold Sponsor</h3>
-            <div className="flex justify-center">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-12">
               <div className="text-center">
                 <Image
                   src="/images/LEV.png"
@@ -86,22 +83,46 @@ export default function SupportPage() {
                 />
                 <p className="text-sm text-gray-600 font-medium">League of Education Voters</p>
               </div>
+              <div className="text-center">
+                <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-brand-gold/20">
+                  <Image
+                    src="/images/arik.jpeg"
+                    alt="Arik Korman"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <p className="text-lg font-bold text-brand-navy">Arik Korman</p>
+                <p className="text-sm text-gray-600">CEO</p>
+              </div>
             </div>
           </div>
 
           {/* Silver Sponsor */}
           <div className="mb-16">
             <h3 className="text-center text-2xl font-serif font-bold text-gray-400 mb-8">Silver Sponsor</h3>
-            <div className="flex justify-center">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-12">
               <div className="text-center">
                 <Image
-                  src="/images/WYA.jpeg"
+                  src="/images/WYA.png"
                   alt="Washington Youth Alliance"
                   width={180}
                   height={180}
                   className="mx-auto mb-4 object-contain"
                 />
                 <p className="text-sm text-gray-600 font-medium">Washington Youth Alliance</p>
+              </div>
+              <div className="text-center">
+                <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-gray-200">
+                  <Image
+                    src="/images/chetan.jpeg"
+                    alt="Chetan Soni"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <p className="text-lg font-bold text-brand-navy">Chetan Soni</p>
+                <p className="text-sm text-gray-600">CEO</p>
               </div>
             </div>
           </div>
@@ -140,6 +161,7 @@ export default function SupportPage() {
              <div className="flex flex-wrap justify-center gap-8 mb-8">
                 <p className="text-lg text-gray-700 font-medium">Alisha Blain-Warner</p>
                 <p className="text-lg text-gray-700 font-medium">Andrew Villeneuve</p>
+                <p className="text-lg text-gray-700 font-medium">Darcy Huffman</p>
              </div>
              
              <div className="text-center">
