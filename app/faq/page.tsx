@@ -56,6 +56,32 @@ export default function FAQPage() {
               </div>
             </div>
 
+            {/* Free Lunch */}
+            <div className="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-gray-100">
+              <h2 className="text-2xl md:text-3xl font-serif font-bold text-brand-navy mb-6 flex items-center gap-3">
+                <span className="w-2 h-8 bg-brand-gold rounded-full"></span>
+                Free Lunch
+              </h2>
+              <div className="prose prose-lg text-gray-600 leading-relaxed">
+                <p>
+                  FREE LUNCH is provided for all attendees, with all options available — vegan, vegetarian, and meat.
+                </p>
+              </div>
+            </div>
+
+            {/* Mileage Reimbursement */}
+            <div className="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-gray-100">
+              <h2 className="text-2xl md:text-3xl font-serif font-bold text-brand-navy mb-6 flex items-center gap-3">
+                <span className="w-2 h-8 bg-brand-teal rounded-full"></span>
+                Mileage Reimbursement
+              </h2>
+              <div className="prose prose-lg text-gray-600 leading-relaxed">
+                <p>
+                  MILEAGE REIMBURSEMENT is available: up to $75 for individuals and $120 for carpools.
+                </p>
+              </div>
+            </div>
+
           </div>
 
           {/* Contact / Support */}

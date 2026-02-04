@@ -62,6 +62,100 @@ export default function SupportPage() {
         </div>
       </section>
 
+      {/* Sponsors Section */}
+      <section className="py-16 md:py-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-serif font-bold text-brand-navy mb-4">Our Partners</h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              AWSL is proudly sponsored by the Association of Washington School Principals
+            </p>
+          </div>
+
+          {/* Gold Sponsor */}
+          <div className="mb-16">
+            <h3 className="text-center text-2xl font-serif font-bold text-brand-gold mb-8">Gold Sponsor</h3>
+            <div className="flex justify-center">
+              <div className="text-center">
+                <Image
+                  src="/images/LEV.png"
+                  alt="League of Education Voters"
+                  width={200}
+                  height={200}
+                  className="mx-auto mb-4 object-contain"
+                />
+                <p className="text-sm text-gray-600 font-medium">League of Education Voters</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Silver Sponsor */}
+          <div className="mb-16">
+            <h3 className="text-center text-2xl font-serif font-bold text-gray-400 mb-8">Silver Sponsor</h3>
+            <div className="flex justify-center">
+              <div className="text-center">
+                <Image
+                  src="/images/WYA.jpeg"
+                  alt="Washington Youth Alliance"
+                  width={180}
+                  height={180}
+                  className="mx-auto mb-4 object-contain"
+                />
+                <p className="text-sm text-gray-600 font-medium">Washington Youth Alliance</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Organized By */}
+          <div className="mb-16">
+            <h3 className="text-center text-2xl font-serif font-bold text-brand-navy mb-8">Organized By</h3>
+            <div className="flex flex-wrap justify-center items-center gap-12">
+              <div className="text-center">
+                <Image
+                  src="/images/AWSL_Seal_Style_Logo_2021_final.png"
+                  alt="AWSL Logo"
+                  width={120}
+                  height={120}
+                  className="mx-auto mb-4"
+                />
+                <p className="text-sm text-gray-600 font-medium">Association of Washington Student Leaders</p>
+                <p className="text-xs text-gray-500">Serving Since 1956</p>
+              </div>
+              <div className="text-center">
+                <Image
+                  src="/images/AWSP_logo_seal_tshirt_logo_front.png"
+                  alt="AWSP Logo"
+                  width={120}
+                  height={120}
+                  className="mx-auto mb-4"
+                />
+                <p className="text-sm text-gray-600 font-medium">Association of Washington School Principals</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Friends of the Summit */}
+          <div>
+             <h3 className="text-center text-2xl font-serif font-bold text-brand-teal mb-8">Friends of the Summit</h3>
+             <div className="flex flex-wrap justify-center gap-8 mb-8">
+                <p className="text-lg text-gray-700 font-medium">Alisha Blain-Warner</p>
+                <p className="text-lg text-gray-700 font-medium">Andrew Villeneuve</p>
+             </div>
+             
+             <div className="text-center">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfnI_UGL3Y-zYIHnl1yB-TqLCUYk3l9fgUSvaWHkWNT6zH7Ew/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-brand-teal text-white font-bold py-3 px-8 rounded-lg hover:bg-brand-teal/90 transition-colors shadow-md"
+                >
+                  Become a Sponsor
+                </a>
+             </div>
+          </div>
+        </div>
+      </section>
+
       {/* Impact Section */}
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -131,42 +225,6 @@ export default function SupportPage() {
                   The Association of Washington Student Leaders is a division of the Washington School Principals' Education Foundation
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Sponsors Section */}
-      <section className="py-16 md:py-24 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold text-brand-navy mb-4">Our Partners</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              AWSL is proudly sponsored by the Association of Washington School Principals
-            </p>
-          </div>
-
-          <div className="flex flex-wrap justify-center items-center gap-12">
-            <div className="text-center">
-              <Image
-                src="/images/AWSL_Seal_Style_Logo_2021_final.png"
-                alt="AWSL Logo"
-                width={120}
-                height={120}
-                className="mx-auto mb-4"
-              />
-              <p className="text-sm text-gray-600 font-medium">Association of Washington Student Leaders</p>
-              <p className="text-xs text-gray-500">Serving Since 1956</p>
-            </div>
-            <div className="text-center">
-              <Image
-                src="/images/AWSP_logo_seal_tshirt_logo_front.png"
-                alt="AWSP Logo"
-                width={120}
-                height={120}
-                className="mx-auto mb-4"
-              />
-              <p className="text-sm text-gray-600 font-medium">Association of Washington School Principals</p>
             </div>
           </div>
         </div>

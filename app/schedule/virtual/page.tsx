@@ -4,89 +4,78 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Virtual Schedule | Educational Advocacy Summit 2026',
-  description: 'Detailed schedule for the virtual Educational Advocacy Summit on February 21, 2026. Join from anywhere in Washington State!',
+  description: 'Detailed schedule for the virtual Educational Advocacy Summit on February 14, 2026. Join from anywhere in Washington State!',
 };
 
 export default function VirtualSchedule() {
   const scheduleItems = [
     {
-      time: '9:00 - 9:15 AM',
+      time: '9:30 AM',
       title: 'Virtual Check-In & Welcome',
-      description: 'Join Zoom and receive digital welcome packets. AWSL/AWSP leaders introduce themselves and overview the virtual day format and breakout room assignments.',
+      description: 'The summit opens with a virtual welcome as students join from across Washington and beyond. Statewide youth leaders introduce the goals of the day and guide participants through brief icebreakers designed to build connections and set expectations for an engaging, interactive experience.',
       type: 'welcome'
     },
     {
-      time: '9:15 AM',
-      title: 'Icebreaker Activity',
-      description: 'Share your most memorable leadership experience via chat or unmute. Connect with fellow student leaders from across the state!',
+      time: '9:35 AM',
+      title: 'Icebreaker',
+      description: 'Students participate in short, interactive activities and breakout rooms that encourage conversation, collaboration, and relationship-building in a virtual setting.',
       type: 'activity'
     },
     {
-      time: '9:15 - 9:35 AM',
-      title: 'Keynote: "Your Voice Matters: Youth Advocacy in Action"',
-      description: 'Virtual keynote speaker (live or recorded) on civic engagement. Could be a former USSYP delegate, young elected official, or civic education leader. Q&A via chat or raised hands.',
+      time: '9:40 AM',
+      title: 'Guest Speaker: Anjali Verma @ Stanford University',
+      description: 'Anjali Verma, a nationally recognized youth civic leader, shares her journey in public service and civic engagement. Drawing from her experience as a former United States Senate Youth Program delegate and young elected official, she will speak about the power of student voice, pathways into leadership, and how young people can create meaningful change at the local, state, and national levels. Anjali is a first-year Public Policy major at Stanford University.',
       type: 'keynote',
       highlight: true
     },
     {
-      time: '9:35 - 10:15 AM',
+      time: '10:10 AM',
       title: 'Workshop Series (Breakout Rooms)',
       description: 'Choose ONE interactive workshop to attend:',
       type: 'workshop',
       highlight: true,
       workshops: [
         {
-          title: 'Democracy 101: How Government Actually Works',
-          description: 'Interactive lesson on three branches, how bills become laws. Includes Kahoot or Poll Everywhere quiz!'
+          title: 'Democracy 101: How Government Works',
+          description: 'An introduction to the structure and function of government, led by student leaders, focused on building foundational civic knowledge.'
         },
         {
           title: 'Advocacy 101: Finding Your Issue',
-          description: 'Learn how to identify issues you care about and build effective advocacy campaigns'
+          description: 'Led by the League of Education Voters, this session helps students identify issues they care about and understand how to turn concerns into advocacy action.'
         },
         {
           title: 'Building Your Advocacy Toolkit',
-          description: 'How to research issues, contact legislators, write testimony. Template sharing and practice activities.'
+          description: 'A skills-based workshop led by AWSL Director James Layman, focused on organizing, messaging, and practical tools for effective advocacy.'
         }
       ]
     },
     {
-      time: '10:15 - 10:30 AM',
-      title: 'Break',
-      description: 'Take a short break to stretch, grab a snack, and recharge!',
+      time: '10:40 - 10:55 AM',
+      title: 'BREAK',
+      description: 'Students take a short break to recharge before the final sessions of the summit.',
       type: 'break'
     },
     {
-      time: '10:30 - 11:25 AM',
-      title: 'Virtual Legislative Panels (Rotating)',
-      description: 'Join rotating panels in breakout rooms - choose or rotate between:',
+      time: '10:55 AM',
+      title: 'Rotating Panels',
+      description: 'Join rotating panels in breakout rooms:',
       type: 'panel',
       highlight: true,
       panels: [
         {
-          title: 'Panel A: Connect with Legislators',
-          description: '2-3 legislators join to discuss their work and answer student questions'
+          title: 'Panel A: Meet Your Legislators',
+          description: 'This interactive panel features elected officials from both parties alongside legislative staff, including T’Wina Nobles, Senator Torres, and Megan Wargacki. Panelists discuss their work, how legislation is shaped, and answer student questions in a moderated Q&A.'
         },
         {
-          title: 'Panel B: Legislative Staff Careers',
-          description: 'Staffers share their roles, daily work, and career paths in public service'
-        },
-        {
-          title: 'Panel C: Civic Education in Washington',
-          description: 'Educators and advocates discuss current state of civics learning and future directions'
+          title: 'Panel B: Civic Education Today: Where Are We Now?',
+          description: 'Featuring Jodi Sandfort, Dean of the University of Washington Evans School of Public Policy & Governance, this session explores the state of civic education in the U.S., its challenges, and opportunities for strengthening youth engagement.'
         }
       ]
     },
     {
-      time: '11:25 AM - 12:30 PM',
-      title: 'Interactive Civic Challenge: Virtual Town Hall Simulation',
-      description: 'Mixed groups via breakout rooms receive community issue scenarios (education budget, climate policy, etc.). Research, discuss, and prepare position statements. Present briefly to the full Zoom. Hands-on collaborative activity simulating real community advocacy!',
-      type: 'activity',
-      highlight: true
-    },
-    {
-      time: '12:30 PM - 1:00 PM',
-      title: 'Closing Session: From Learning to Action',
-      description: 'AWSL alumni share how they\'ve continued civic engagement after high school. Learn about programs like USSYP and Page School. Group screenshot for memories! Survey link shared for feedback.',
+      time: '11:55 AM - 12:00 PM',
+      title: 'Closing Session: From Learning to Action & Future Goals',
+      description: 'The summit concludes with reflections from youth and AWSL alumni on continued civic engagement beyond high school. Students receive resources for staying involved in advocacy and civic leadership, along with a collective closing moment to mark the experience.',
       type: 'closing'
     }
   ];
@@ -119,7 +108,7 @@ export default function VirtualSchedule() {
               <svg className="h-6 w-6 mr-2 text-brand-cream" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
-              Saturday, February 21, 2026
+              Saturday, February 14, 2026
             </div>
             <div className="flex items-center font-bold">
               <svg className="h-6 w-6 mr-2 text-brand-cream" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -251,7 +240,7 @@ export default function VirtualSchedule() {
           <div className="relative z-10">
             <h2 className="text-3xl font-serif font-bold mb-4">Ready to Participate Virtually?</h2>
             <p className="text-brand-cream/90 mb-8 text-lg max-w-2xl mx-auto">
-              Join from anywhere in Washington State on February 21st.
+              Join from anywhere in Washington State on February 14th.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

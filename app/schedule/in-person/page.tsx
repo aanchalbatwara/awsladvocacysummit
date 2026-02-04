@@ -10,65 +10,67 @@ export const metadata: Metadata = {
 export default function InPersonSchedule() {
   const scheduleItems = [
     {
-      time: '9:00 - 9:30 AM',
-      title: 'Check-In & Networking',
-      description: 'Arrive at the Capitol, grab your badge and welcome packet with agenda & Capitol map. Connect with fellow student leaders from across Washington.'
+      time: '9:00 – 9:15 AM',
+      title: 'Check-In & Welcome',
+      description: 'The day begins with participant check-in and opening remarks. Students receive summit materials and are welcomed by statewide youth leaders, setting the tone for a collaborative, youth-driven day of civic engagement.'
     },
     {
-      time: '9:00 - 9:15 AM',
-      title: 'Opening Session & Welcome',
-      description: (
-        <>
-          <span className="text-brand-gold font-bold">Gavin Cruz</span> and <span className="text-brand-gold font-bold">Aanchal Batwara</span> introduce AWSL and AWSP. Meet the Executive Board and key staff who will guide you throughout the day. Overview of the day's purpose and goals.
-        </>
-      )
+      time: '9:15 AM',
+      title: 'Youth Group Introductions: Our Statewide Network',
+      description: 'Students representing youth organizations from across Washington introduce themselves and their communities. This session highlights the geographic and cultural diversity of Washington’s student advocacy landscape and emphasizes the power of statewide collaboration.'
     },
     {
-      time: '9:15 - 9:30 AM',
-      title: 'Youth Group Introductions',
-      description: '1-2 minute introductions from each represented youth group. See your group pinned on a Washington State map!'
-    },
-    {
-      time: '9:30 - 10:15 AM',
-      title: 'Meetings with Legislators & Capitol Tours',
-      description: 'Guided tours of the Washington State Capitol. Meet with legislators and learn firsthand about their work representing our communities.'
-    },
-    {
-      time: '10:15 - 11:00 AM',
-      title: 'Legislative Challenge: Write Your Own Bill',
-      description: 'Work in mixed-region teams to choose a civic education-related issue. Draft a short "bill" with title, purpose, and 3-5 sections. Prepare a 2-3 minute pitch for the mock hearing.',
+      time: '9:30 AM – 10:00 AM',
+      title: 'Keynote Speaker Lieutenant Gov. Denny Heck',
+      description: 'Lieutenant Governor Denny Heck brings decades of experience in public service, economic policy, and education advocacy. In his keynote, he will reflect on leadership, the policymaking process, and why youth voices are essential to strengthening democracy in Washington State.',
       highlight: true
     },
     {
-      time: '11:00 - 11:30 AM',
-      title: 'Special Session: Legislative Leadership',
-      description: 'Guest speaker (Senator or House Speaker) shares insights on legislative leadership, youth voices, and civic engagement. Q&A with students.'
-    },
-    {
-      time: '11:30 AM - 12:15 PM',
-      title: 'Lunch Break',
-      description: 'Enjoy a packed lunch or cafeteria options. Time to recharge and network with other students.'
-    },
-    {
-      time: '12:15 - 1:00 PM',
-      title: 'Mock Committee Hearings & Voting',
-      description: 'Teams present their bills in a simulated committee hearing. Legislators and attendees ask questions. Vote on the top bill idea - winning team gets a prize!',
+      time: '10:00 AM - 10:45 AM',
+      title: 'Legislative Challenge: Write Your Own Bill (Competition)',
+      description: 'In this interactive, team-based challenge, students step into the role of legislators. Students are first taught the basics of bill writing, then draft a mock bill addressing a real issue facing Washington, and finally prepare a short 2-3 minute pitch for a simulated hearing. This activity introduces students to legislative structure, persuasive advocacy, and policy problem-solving. Hot Topics in WA State: FAFSA Updates, Healthcare, Education.',
       highlight: true
     },
     {
-      time: '1:00 - 2:15 PM',
-      title: 'Panel Discussion & Partner Showcase',
-      description: 'Hear from legislative staff, civic education advocates, and partner organizations. Learn about careers in public service and ways to stay engaged.'
+      time: '10:45 AM - 11:15 AM',
+      title: 'AM Workshops (LEV or WYA)',
+      description: 'Students rotate through interactive workshops led by League of Education Voters (LEV) and Washington Youth Alliance (WYA), focused on civic participation, youth voice, public speaking, voting, and student well-being. Sessions emphasize skill-building, discussion, and direct engagement that equips students to advocate effectively in their schools and communities. Includes Q&A with students.'
     },
     {
-      time: '2:15 - 2:45 PM',
-      title: 'Alumni Action Planning',
-      description: 'AWSL and USSYP alumni share how their experiences shaped their careers, advocacy, and civic engagement. Discover pathways from high school leadership to college, careers, and public service.'
+      time: '11:15 AM - 12:00 PM',
+      title: 'Capitol Tour',
+      description: 'Participants will tour the Washington State Capitol, including the Legislative Building and the John L. O’Brien, Cherberg, and Temple of Justice buildings. Students will see where lawmakers meet, where legislative staff work, and where the state’s highest court operates, gaining a concrete understanding of how Washington’s government functions day to day.'
     },
     {
-      time: '2:45 - 3:00 PM',
+      time: '12:00 PM - 12:45 PM',
+      title: 'Lunch',
+      description: 'Lunch is provided for all attendees and offers students time to connect informally with peers, facilitators, and guest speakers. Representatives from statewide organizations, including the Secretary of State’s Office and the State Board of Education, will be present for informal conversation and networking. Vegetarian options will be available.'
+    },
+    {
+      time: '12:45 PM - 1:05 PM',
+      title: 'SVN Led Workshop (transitional activity or break)',
+      description: 'This AWSL-led workshop introduces how Washington State’s legislature works, including its structure, key roles, and the steps a bill takes to become law. Students will also learn practical ways to get involved in advocacy, from voting and testimony to engaging with local and state officials, ending with an interactive activity that reinforces key concepts in a fun, engaging way.'
+    },
+    {
+      time: '1:05 - 1:30 PM',
+      title: 'Committee Hearings',
+      description: 'Student teams present their drafted bills in simulated committee hearings. Participants practice public testimony, respond to questions, and receive feedback. Attendees vote to recognize standout policy ideas.',
+      highlight: true
+    },
+    {
+      time: '1:30 - 2:00 PM',
+      title: 'PM Workshops #2',
+      description: 'Additional rotating workshops deepen students’ understanding of civics, organizing, advocacy strategies, and pathways to involvement beyond the summit.'
+    },
+    {
+      time: '2:00 PM - 2:45 PM',
+      title: 'Speaker Panel @ SHR #4',
+      description: 'This moderated panel brings together leaders from advocacy, government, and student organizing, including Kenji Linane-Booey, Statewide Field Manager at the League of Education Voters (Ex-Admissions Officer at Gonzaga University), Megan Wargacki, Senior Counsel at the Office of Program Research, Joel Anderson, Associate Director of Legislative & External Affairs at the Washington State Student Achievement Council, and student advocate Brandon Elliott representing ASUW OGR and UW Impact. Panelists will share insights on how policy is shaped, the role of advocacy and staff in the legislative process, and how students can meaningfully engage in public service.'
+    },
+    {
+      time: '2:45 PM',
       title: 'Closing Rally & Group Photo',
-      description: 'Recognition of winning bill team. Group photo on the Capitol steps to commemorate your participation in this historic summit!',
+      description: 'The summit concludes with a collective closing session and group photo on the Capitol grounds. Students leave with next steps for staying involved in statewide youth advocacy through organizations like the Association of Washington Student Leaders (AWSL) and civic engagement efforts.',
       highlight: true
     }
   ];
